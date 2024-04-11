@@ -17,7 +17,7 @@ try {
 
     // Creamos una variable con varias consultas a realizar
     $consulta = <<<CONSULTA
-            INSERT INTO dbs12302455.T02_Departamento (T02_CodDepartamento, T02_DescDepartamento, T02_FechaCreacionDepartamento, T02_VolumenDeNegocio, T02_FechaBajaDepartamento) VALUES
+            INSERT INTO dbs12302437.T02_Departamento (T02_CodDepartamento, T02_DescDepartamento, T02_FechaCreacionDepartamento, T02_VolumenDeNegocio, T02_FechaBajaDepartamento) VALUES
                 ('AAA', 'Departamento de Ventas', NOW(), 100000.50, NULL),
                 ('AAB', 'Departamento de Marketing', NOW(), 50089.50, NULL),
                 ('AAC', 'Departamento de Finanzas', NOW(), 600.50, '2023-11-13 13:06:00'),
@@ -34,7 +34,7 @@ try {
                 ('AAN', 'Departamento de Investigación', NOW(), 85000.80, NULL),
                 ('AAO', 'Departamento de Planificación', NOW(), 90000.40, NULL),
                 ('AAP', 'Departamento de Auditoría', NOW(), 130000.20, NULL);
-            INSERT INTO dbs12302455.T01_Usuario (T01_CodUsuario, T01_Password, T01_DescUsuario, T01_Perfil) VALUES
+            INSERT INTO dbs12302437.T01_Usuario (T01_CodUsuario, T01_Password, T01_DescUsuario, T01_Perfil) VALUES
                 ('admin', SHA2('adminpaso', 256), 'administrador', 'administrador'),
                 ('alvaro', SHA2('alvaropaso', 256), 'Álvaro Cordero Miñambres', 'usuario'),
                 ('carlos', SHA2('carlospaso', 256), 'Carlos García Cachón', 'usuario'),
@@ -45,7 +45,7 @@ try {
                 ('ismael', SHA2('ismaelpaso', 256), 'Ismael Ferreras García', 'usuario'),
                 ('heraclio', SHA2('heracliopaso', 256), 'Heraclio Borbujo Moran', 'usuario'),
                 ('amor', SHA2('amorpaso', 256), 'Amor Rodriguez Navarro', 'usuario');
-            INSERT INTO dbs12302455.T06_Animal (T06_CodAnimal, T06_DescAnimal, T06_FechaNacimiento, T06_Sexo, T06_Raza, T06_Precio, T06_FechaBaja) VALUES
+            INSERT INTO dbs12302437.T06_Animal (T06_CodAnimal, T06_DescAnimal, T06_FechaNacimiento, T06_Sexo, T06_Raza, T06_Precio, T06_FechaBaja) VALUES
                 ('A01', 'Vaca', '2023-01-15 10:30:00', 'hembra', 'Holstein', 1200.50, NULL),
                 ('A02', 'Cerdo', '2022-08-05 15:45:00', 'macho', 'Large Black', 800.75, NULL),
                 ('A03', 'Gallina', '2021-05-20 08:00:00', 'hembra', 'Rhode Island Red', 25.99, NULL),
