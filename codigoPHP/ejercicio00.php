@@ -17,7 +17,7 @@
              * @version 2.0 
              * @since 09/04/2024
              */
-            //Mostramos la variable $_SESSION
+            //Mostramos la variable $_GLOBALS
             echo '<h3>Variable $GLOBALS</h3>';
             foreach ($GLOBALS as $value) {
                 var_dump($value);
@@ -42,7 +42,7 @@
                 echo "<span class=\"fw-bolder\">$key:</span> $value<br>";
             }
             
-            //Mostramos la variable $_GET
+            //Mostramos la variable $_REQUEST
             echo '<h3>Variable $_REQUEST</h3>';
             foreach ($_REQUEST as $key => $value) {
                 echo "<span class=\"fw-bolder\">$key:</span> $value<br>";
